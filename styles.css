@@ -3,14 +3,15 @@
 /* Styles généraux */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #000000; /* Fond noir */
+    color: white; /* Texte en blanc */
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #333333; /* Fond du header en gris foncé (pour un meilleur contraste) */
+    color: white; /* Texte du header en blanc */
     padding: 10px 0;
     text-align: center;
 }
@@ -18,18 +19,20 @@ header {
 h1 {
     font-size: 2.5rem;
     text-align: center;
+    color: white; /* Texte du H1 en blanc */
 }
 
 .contenu {
     padding: 20px;
     margin: 20px;
-    background-color: white;
+    background-color: #222222; /* Fond gris très foncé pour les sections de contenu */
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    color: white; /* Texte en blanc */
 }
 
 a {
-    color: #4CAF50;
+    color: #4CAF50; /* Lien en vert (pour contraster avec le fond noir) */
     text-decoration: none;
 }
 
