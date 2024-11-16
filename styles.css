@@ -22,6 +22,10 @@ h1 {
     color: white; /* Texte du H1 en blanc */
 }
 
+h2 {
+    text-align: center;
+}
+
 .contenu {
     padding: 20px;
     margin: 20px;
