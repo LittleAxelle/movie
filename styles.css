@@ -85,22 +85,26 @@ ul li {
 /* Container de la vidéo */
 .video-container {
     position: relative;
-    width: 100%;  /* Prend toute la largeur disponible */
-    padding-top: 56.25%;  /* C'est 9 / 16 * 100 pour un ratio 16:9 */
-    margin-bottom: 20px; /* Espace sous la vidéo */
-    background-color: black; /* Fond noir pour simuler un cadre de vidéo */
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    background-color: black;
+    /* Pour les navigateurs modernes avec support pour aspect-ratio */
+    aspect-ratio: 16 / 9;
 }
 
-/* Iframe de la vidéo */
+/* Fallback pour les navigateurs sans support aspect-ratio */
+@supports not (aspect-ratio: 16 / 9) {
+    .video-container {
+        padding-top: 56.25%;  /* Ratio 16:9 basé sur le padding-top */
+    }
+}
+
 .video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;  /* Prend toute la largeur du container */
-    height: 100%; /* La hauteur s'ajuste automatiquement au ratio 16:9 */
-    border: none; /* Enlever la bordure de l'iframe */
+    width: 100%;
+    height: 100%;
+    border: none;
 }
-
 
 
 
