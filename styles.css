@@ -82,16 +82,23 @@ ul li {
     margin: 10px 0;
 }
 
-
+/* Container de la vidéo */
 .video-container {
-    text-align: center;  /* Centre horizontalement le contenu à l'intérieur */
-    margin-bottom: 20px; /* Optionnel : espace sous la vidéo */
+    position: relative;
+    width: 100%;  /* Prend toute la largeur disponible */
+    padding-top: 56.25%;  /* C'est 9 / 16 * 100 pour un ratio 16:9 */
+    margin-bottom: 20px; /* Espace sous la vidéo */
+    background-color: black; /* Fond noir pour simuler un cadre de vidéo */
 }
 
-iframe {
-    max-width: 100%;  /* Assurez-vous que l'iframe est responsive */
-    height: auto;     /* Ajuste la hauteur de manière proportionnelle */
-    border: none;     /* Retire la bordure de l'iframe */
+/* Iframe de la vidéo */
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;  /* Prend toute la largeur du container */
+    height: 100%; /* La hauteur s'ajuste automatiquement au ratio 16:9 */
+    border: none; /* Enlever la bordure de l'iframe */
 }
 
 
