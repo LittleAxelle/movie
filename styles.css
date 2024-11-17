@@ -96,7 +96,7 @@ button {
 }
 
 button:hover {
-    background-color: #f44336; /* Button turns red on hover */
+    background-color: #FF0000; /* Button turns red on hover */
 }
 
 /* Mobile Responsiveness */
