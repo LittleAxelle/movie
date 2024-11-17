@@ -82,6 +82,21 @@ ul li {
     margin: 10px 0;
 }
 
+
+.video-container {
+    text-align: center;  /* Centre horizontalement le contenu à l'intérieur */
+    margin-bottom: 20px; /* Optionnel : espace sous la vidéo */
+}
+
+iframe {
+    max-width: 100%;  /* Assurez-vous que l'iframe est responsive */
+    height: auto;     /* Ajuste la hauteur de manière proportionnelle */
+    border: none;     /* Retire la bordure de l'iframe */
+}
+
+
+
+
 /* Centrer uniquement le bouton */
 .button-container {
     display: flex;
