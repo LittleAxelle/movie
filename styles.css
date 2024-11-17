@@ -108,6 +108,18 @@ button:hover {
     background-color: #FF0000; /* Button turns red on hover */
 }
 
+/* Styles pour la div contenant l'image du poster */
+.poster-container {
+    text-align: center;  /* Centrer l'image */
+    margin: 20px 0;      /* Espacement autour du poster */
+}
+
+.poster {
+    max-width: 100%;     /* L'image ne dépasse pas la largeur de l'écran */
+    height: auto;        /* Garder les proportions */
+    border-radius: 8px;  /* Pour des coins arrondis si tu veux */
+}
+
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
     h1 {
