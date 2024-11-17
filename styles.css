@@ -82,6 +82,15 @@ ul li {
     margin: 10px 0;
 }
 
+/* Centrer uniquement le bouton */
+.button-container {
+    display: flex;
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */
+    height: 100vh; /* Occuper toute la hauteur de la page */
+}
+
+
 /* Button Styling */
 button {
     background-color: #ff5722; /* Button in a striking orange-red */
