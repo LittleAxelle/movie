@@ -52,9 +52,17 @@
             <iframe width="1024" height="576" src="https://www.youtube.com/embed/ZBJCgrrQhx4?si=My9prGe8jZAb6zgu&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
     <div class="button-container">
-        <button>Click to watch on YouTube</button>
+        <button id="youtube-button">Click to watch on YouTube</button>
     </div>
 </div>
+
+<script>
+    // Attache un événement de clic au bouton
+    document.getElementById("youtube-button").addEventListener("click", function() {
+        // Ouvre l'URL de la vidéo dans un nouvel onglet
+        window.open("https://www.youtube.com/watch?v=ZBJCgrrQhx4", "_blank");
+    });
+</script>
     
 <div class="content">
     <h2>Movie Poster</h2>
