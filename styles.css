@@ -65,12 +65,12 @@ p {
     hyphens: auto;
 }
 
-pcentered {
+.centered {
     font-size: 1rem;
     line-height: 1.8;
     margin-bottom: 15px;
     color: #e0e0e0;
-    text-align: center;
+    text-align: center;  /* This centers the text horizontally */
     hyphens: auto;
 }
 
