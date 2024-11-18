@@ -61,6 +61,8 @@ p {
     line-height: 1.8;
     margin-bottom: 15px;
     color: #e0e0e0;
+    text-align: justify;
+    hyphens: auto;
 }
 
 p a {
