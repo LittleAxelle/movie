@@ -75,7 +75,20 @@
     <div class="poster-container">
         <img src="image/posterv3.png" alt="The Last Exam movie poster" class="poster">
     </div>
+    <div class="button-container">
+        <button id="poster-button">Click to download the Poster</button>
+    </div>
 </div>
 
+<script>
+    // Attache un événement de clic au bouton
+    document.getElementById("poster-button").addEventListener("click", function() {
+        // Ouvre l'URL de la vidéo dans un nouvel onglet
+        window.open("https://littleaxelle.github.io/movie/image/posterv3.png", "_blank");
+    });
+</script>
+    
+
+    
 </body>
 </html>
