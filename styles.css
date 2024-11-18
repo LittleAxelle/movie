@@ -65,6 +65,15 @@ p {
     hyphens: auto;
 }
 
+pcentered {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    color: #e0e0e0;
+    text-align: center;
+    hyphens: auto;
+}
+
 p a {
     color: #4CAF50; /* Green links */
     text-decoration: none;
