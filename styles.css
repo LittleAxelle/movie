@@ -157,6 +157,10 @@ button:hover {
     border-radius: 8px;  /* Pour des coins arrondis si tu veux */
 }
 
+.centered-heading {
+    text-align: center;
+}
+
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
     h1 {
