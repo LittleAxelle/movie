@@ -152,9 +152,10 @@ button:hover {
 }
 
 .poster {
-    max-width: 100%;     /* L'image ne dépasse pas la largeur de l'écran */
+    max-width: 90%;      /* Réduire à 90% de la largeur disponible */
+    max-height: calc(100vh - 100px); /* Ajuster pour qu'il tienne dans l'écran avec un peu d'espace */
     height: auto;        /* Garder les proportions */
-    border-radius: 8px;  /* Pour des coins arrondis si tu veux */
+    border-radius: 8px;  /* Coins arrondis */
 }
 
 .centered-heading {
