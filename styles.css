@@ -158,6 +158,18 @@ button:hover {
     border-radius: 8px;  /* Coins arrondis */
 }
 
+.qr-container {
+    text-align: center;  /* Centrer l'image */
+    margin: 20px 0;      /* Espacement autour du poster */
+}
+
+.qr {
+    max-width: 50%;      /* Réduire à 90% de la largeur disponible */
+    max-height: calc(100vh - 100px); /* Ajuster pour qu'il tienne dans l'écran avec un peu d'espace */
+    height: auto;        /* Garder les proportions */
+    border-radius: 8px;  /* Coins arrondis */
+}
+
 .centered-heading {
     text-align: center;
 }
