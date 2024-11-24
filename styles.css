@@ -164,7 +164,7 @@ button:hover {
 }
 
 .qr {
-    max-width: 50%;      /* Réduire à 90% de la largeur disponible */
+    max-width: 70%;      /* Réduire à 70% de la largeur disponible */
     max-height: calc(100vh - 100px); /* Ajuster pour qu'il tienne dans l'écran avec un peu d'espace */
     height: auto;        /* Garder les proportions */
     border-radius: 8px;  /* Coins arrondis */
